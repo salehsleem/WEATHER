@@ -1,0 +1,100 @@
+body {
+    background-color: #1E202B;
+}
+small {
+    font-size:10px;
+}
+nav {
+    background-color: #1E202B;
+}
+.nav-item {
+    border: transparent 2px solid;
+    border-radius: 25px;
+}
+.nav-item:hover {
+    border: #009AD8 2px solid;
+    transition: all 0.5s;
+}
+.topHome {
+    color: #009AD8 !important;
+    border: #009AD8 2px solid;
+    border-radius: 25px;
+}
+.banner {
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+.search {
+    background-color: #1E202B;
+    border:none ;
+    outline: none;
+    color: white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.btn {
+    background-color: #009AD8;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    right: 2%;
+    bottom: 8%;
+}
+.btn:hover {
+    background-color: #009AD8 !important;
+    color: white;
+}
+.head1 , .head3  {
+    background-color: #2D303D;
+}
+
+.degree {
+    font-size: 70px;
+    font-weight: bold;
+    color: white !important;
+}
+.contentDay ,.contentDay3  {
+    background-color: #323544;
+}
+.head2{
+    background-color: #222531;
+}
+.contentDay2 {
+    background-color: #262936;
+}
+.row {
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+}
+.contentDay , .contentDay2 , .contentDay3 {
+    height: 350px ;
+}
+footer {
+    background-color: #262936;
+}
+.icons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #1E202B;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
